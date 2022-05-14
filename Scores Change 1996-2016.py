@@ -1,10 +1,8 @@
-from ast import Subscript
-from itertools import groupby
 import pandas as pd
 import matplotlib.pyplot as plt
 
 # 資料讀取
-raw_data = pd.read_csv('data.csv')
+raw_data = pd.read_csv('Kobe Bryant Shot  Analysis/data.csv')
 
 # 記錄分數類型
 score_type = []
