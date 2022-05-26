@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 資料讀取
-raw_data = pd.read_csv('data.csv')
+raw_data = pd.read_csv('Kobe Bryant Shot Analysis/data.csv')
 
 # 檢視是否成功得分的缺失值
 # print(raw_data[raw_data['shot_made_flag'].isnull()])
